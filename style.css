@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*  HEADER */ 
+
+header {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.logo {
+    align-items: flex-start;
+    font-family: 'Intro';
+    color: gray;
+}
+
+
+nav { 
+
+    align-items: flex-end;
+    list-style-type: none;
+    flex-wrap: wrap; 
+    margin-left: auto;
+    margin-right: 20px;
+    
+} 
+
+.menu {
+    display: flex;
+   
+    
+} 
+   
+    
+.item1 {
+    width: 40px; 
+
+        } 
+
+.item2 {
+            width: 40px; 
+           } 
+
+
+           
+  /*  main */ 
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Intro';
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;   
+    margin-left: auto;
+
+}
+
+.banner1 {
+background-color: gray;
+    width: 700px;
+    height: 500px;
+}
+
+.banner2 {
+    background: rgb(18,170,22);
+    background: linear-gradient(0deg, rgba(18,170,22,1) 0%, rgba(43,210,61,1) 0%, rgba(168,219,14,1) 83%); 
+    width: 750px;
+    height: 500px;
+    text-align: center;
+    font-family: 'Intro';
+}
+
+input {
+    width: 70%;
+    height: 50px;
+    background-color: #ffffff;
+    font-size: 20px;
+    color: gray;
+}
+
+button{
+    text-align: center;
+    font-family: 'Intro';
+    font-size: 20px;
+    color: #ffffff;
+    background-color: orange;
+    padding: 20px;
+}
+.pin {
+    width: 50px
+} 
+
+.bbq {
+    width: 50px
+} 
+
+/*  FOOTER */ 
+
+.footer {
+    padding: 70px 0;
+}
+
+.containerf {
+	max-width: 1170px;
+	margin:auto;    
+    background-color: #ffffff;
+    font-style: normal;
+    font-family: 'Intro';
+    color: black;
+
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+ul{
+	list-style: none;
+  
+}
+
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+	font-size: 18px;
+    font-family: 'Intro';
+	color: black;
+	margin-bottom: 35px;
+	font-weight: bold;
+	position: relative;
+	margin-bottom: 10px;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+
+}
+
+h4 { 
+    font-weight: bold;
+}
+
